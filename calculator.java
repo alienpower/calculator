@@ -7,11 +7,11 @@ public class Calc
    //declare the Scanner
     Scanner input = new Scanner(System.in);
     
-    System.out.println("Pick a number: ");
+    System.out.print("Pick a number: ");
     
      double num1 = input.nextInt();
    
-    System.out.println("Pick another number: ");
+    System.out.print("Pick another number: ");
    
      double num2 = input.nextInt();
                        
