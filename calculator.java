@@ -1,5 +1,3 @@
-//use a premade program called Scanner
-
 import java.util.Scanner; //always need to import to use
 
 public class Calc 
@@ -13,7 +11,7 @@ public class Calc
     
      double num1 = input.nextInt();
    
-    System.out.println("pick another number: ");
+    System.out.println("Pick another number: ");
    
      double num2 = input.nextInt();
                        
