@@ -1,0 +1,37 @@
+import java.util.*;
+public class LogarithmsSub {
+   public static void main(final String[] args) {
+   Scanner input = new Scanner(System.in);
+     
+      System.out.println("y(1-p)^x = z");
+      
+      System.out.print("\ny = ");
+      
+      double y = input.nextDouble();
+      
+      System.out.print("\np = ");
+     
+      double p = input.nextDouble();
+     
+      System.out.print("\nz = ");
+      
+      double z = input.nextDouble();
+      
+      double percent = 1 - (p / 100);
+            
+      System.out.println("\n"+y+"("+percent+")^x = " + z);
+      
+      System.out.println("\nxlog("+(percent)+") = " + "log("+(z/y)+")");
+      
+      double logX = z/y;
+      
+      System.out.println("\nx = "+Math.log(logX)/Math.log(percent)); 
+      
+      double Answer = Math.log(logX)/Math.log(percent);
+      
+      System.out.printf("\nRounded to the nearest tenth: %.1f%n",  Answer);
+        
+      System.out.println("\nRounded to the nearest whole number: " + Math.round(Answer));
+      
+   }
+}
